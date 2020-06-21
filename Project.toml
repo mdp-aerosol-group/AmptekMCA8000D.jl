@@ -1,4 +1,4 @@
-name = "MCA8000d"
+name = "MCA8000D"
 uuid = "2c6af3f0-c2f5-4e80-8f62-98018f5a389d"
 authors = ["Markus Petters <mdpetter@ncsu.edu>"]
 version = "0.1.0"
