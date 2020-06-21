@@ -20,7 +20,7 @@ You have to reload the rules after you copied the file to have any effect. You a
 ## Example usage
 
 ```julia
-using MCA8000d                       # Load the module
+using MCA8000D                       # Load the module
 using Gadfly                         # For plotting
 
 mca8000d = device()                  # Open the device
