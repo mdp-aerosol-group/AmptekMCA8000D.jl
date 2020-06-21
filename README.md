@@ -10,7 +10,7 @@ Author: Markus Petters
 ## Installation
 
 ```julia
-pkg> add git@github.com:mdpetters/MCA8000D.jl.git
+pkg> add https://github.com/mdpetters/MCA8000D.jl.git
 ```
 
 To allow any user access to the mca8000d device, copy the file ```mca8000d.rules``` to ```/etc/udev/rules.d```
