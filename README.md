@@ -41,7 +41,7 @@ s = mca8000d.spectrum(true,true)     # Sample spectrum
 display(s[1])                        # Acquired spectrum
 mca8000d.disable_MCA_MCS()           # Turn off
 
-# Example 0.2 Hz spectrum acquisition
+# Example 5 Hz spectrum acquisition
 mca8000d.sendCmdConfig("PRER=OFF;")  
 mca8000d.enable_MCA_MCS()            
 for i = 1:10
