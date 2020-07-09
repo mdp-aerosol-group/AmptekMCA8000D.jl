@@ -1,9 +1,7 @@
-name = "MCA8000D"
+name = "AmptekMCA8000D"
 uuid = "2c6af3f0-c2f5-4e80-8f62-98018f5a389d"
 authors = ["Markus Petters <mdpetter@ncsu.edu>"]
 version = "0.1.0"
 
 [deps]
-Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"

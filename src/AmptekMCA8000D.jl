@@ -1,4 +1,4 @@
-module MCA8000D
+module AmptekMCA8000D
 
 #  Python code is copyright 2019 Henning Follmann <hfollmann@itcfollmann.com>
 #  Julia code and changes to python code: 2020 Markus Petters <mdpetter@ncsu.edu>
