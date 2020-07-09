@@ -1,4 +1,4 @@
-# MCA8000D.jl
+# AmptekMCA8000D.jl
 
 A julia package to communicate with the MCA8000D device. The package wraps the python code written by Henning Fo (https://github.com/HenningFo/mca8000d). The code was modifed to be compatible with python3. Specifically python3 enforces encoding of str/bytearray conversions, which was fixed in a few places. 
 
@@ -10,7 +10,7 @@ Author: Markus Petters
 ## Installation
 
 ```julia
-pkg> add https://github.com/mdpetters/MCA8000D.jl.git
+pkg> add https://github.com/mdpetters/AmptekMCA8000D.jl.git
 ```
 
 To allow any user access to the mca8000d device, copy the file ```mca8000d.rules``` to ```/etc/udev/rules.d```
