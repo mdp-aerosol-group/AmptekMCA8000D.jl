@@ -1,4 +1,4 @@
-using MCA8000D                       # Load the module
+using AmptekMCA8000D                 # Load the module
 using Gadfly                         # For plotting
 
 mca8000d = device()                  # Open the device

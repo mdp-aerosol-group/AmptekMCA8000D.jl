@@ -17,10 +17,12 @@ To allow any user access to the mca8000d device, copy the file ```mca8000d.rules
 
 You have to reload the rules after you copied the file to have any effect. You also could restart the computer, after reboot the rules will take effect too. 
 
+You need to install the python-usb library (pip install pyusb) with the python distribution invoked by PyCall.jl
+
 ## Example usage
 
 ```julia
-using MCA8000D                       # Load the module
+using AmptekMCA8000D                 # Load the module
 using Gadfly                         # For plotting
 
 mca8000d = device()                  # Open the device
